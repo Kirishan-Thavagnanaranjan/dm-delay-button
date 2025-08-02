@@ -51,7 +51,7 @@ const handleCancel = () =>{
     <div className='max-w-md mx-auto mt-20 p-6 border rounded-lg shadow-sm bg-white space-y-4'>
         <h2 className='text-2xl font-bold text-gray-800 '>Dm Delay Button</h2>
         <label htmlFor='message' className='sr-only'>Message</label>
-        <textarea
+        <Textarea
         id='message'
         className='w-full p-2 border rounded'
         placeholder='Type your msg...'
